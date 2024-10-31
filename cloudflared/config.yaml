@@ -1,6 +1,6 @@
 ---
 name: Cloudflared
-version: 5.1.23
+version: 5.2.0
 #version: dev
 slug: cloudflared
 description: "Use a Cloudflare Tunnel to remotely

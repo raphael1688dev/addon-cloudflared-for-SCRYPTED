@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:17.0.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:17.1.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -10,7 +10,7 @@ ENV S6_VERBOSITY=1
 
 # Setup base
 ARG BUILD_ARCH=amd64
-ARG CLOUDFLARED_VERSION="2024.12.2"
+ARG CLOUDFLARED_VERSION="2025.1.1"
 
 # Copy root filesystem
 COPY rootfs /
